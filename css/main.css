@@ -1,0 +1,107 @@
+/* roboto-regular - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/roboto-v30-latin-regular.eot');
+  src: url('../fonts/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-regular.woff') format('woff'),
+    url('../fonts/roboto-v30-latin-regular.ttf') format('truetype');
+}
+
+/* roboto-500 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/roboto-v30-latin-500.eot');
+  src: url('../fonts/roboto-v30-latin-500.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-500.woff') format('woff'),
+    url('../fonts/roboto-v30-latin-500.ttf') format('truetype');
+}
+
+/* roboto-700 - latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/roboto-v30-latin-700.eot');
+  src: url('../fonts/roboto-v30-latin-700.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+    url('../fonts/roboto-v30-latin-700.woff') format('woff'),
+    url('../fonts/roboto-v30-latin-700.ttf') format('truetype');
+}
+
+
+/* STYLE TO HTML DOCUMENT */
+
+.universal__container {
+  max-width: 1310px;
+  width: 100%;
+  padding: 28px 20px;
+}
+
+.categories__title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+.category__list {
+  margin: 0;
+  padding: -10;
+}
+
+.font-w-700 {
+  font-family: 'Roboto';
+  font-weight: 700;
+}
+
+.font-w-500 {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+.font-w-400 {
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.font-desc {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 15px;
+  color: #232F3E;
+}
+
+.p-n-1 {
+  padding: 39px 10px;
+}
+
+.back-color {
+  background: #F9F9F9;
+  border: 3px solid transparent;
+}
+
+.backhover:hover {
+  background-color: #FFFFFFFF;
+  border: 3px solid #FFFFFFFF;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 7px;
+}
+
+.backhover:active {
+  background-color: rgba(30, 143, 255, 0.527);
+  border: 3px solid rgba(30, 143, 255, 0.527);
+}
+
+.item+.item {
+  margin-left: 5px;
+}
